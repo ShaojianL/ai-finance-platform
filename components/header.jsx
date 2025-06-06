@@ -21,18 +21,23 @@ const Header = () => {
                     <SignedIn>
                         <Link href={"/dashboard"}>
                             <Button variant={"outline"}>
-                                <LayoutDashboard size={18}/>
+                                <LayoutDashboard size={18} />
                                 <span className='hidden md:inline'>Dashboard</span>
                             </Button>
                         </Link>
                     </SignedIn>
                     <SignedOut>
-                        <SignInButton forceRedirectUrl='/dashboard'>
+                        <SignInButton signInUrl="/sign-in" forceRedirectUrl='/dashboard'>
                             <Button variant={"outline"}>
                                 Sign in
                             </Button>
                         </SignInButton>
-                        {/* <SignUpButton /> */}
+                        <SignUpButton signUpUrl="/sign-up">
+                            <Button variant={"secondary"}>
+                                Sign up
+                            </Button>
+                        </SignUpButton>
+
                     </SignedOut>
                     <SignedIn>
                         <UserButton />
