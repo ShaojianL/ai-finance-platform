@@ -27,12 +27,12 @@ const Header = () => {
                         </Link>
                     </SignedIn>
                     <SignedOut>
-                        <SignInButton signInUrl="/sign-in" forceRedirectUrl='/dashboard'>
+                        <SignInButton forceRedirectUrl='/dashboard'>
                             <Button variant={"outline"}>
                                 Sign in
                             </Button>
                         </SignInButton>
-                        <SignUpButton signUpUrl="/sign-up">
+                        <SignUpButton forceRedirectUrl='/dashboard'>
                             <Button variant={"secondary"}>
                                 Sign up
                             </Button>
