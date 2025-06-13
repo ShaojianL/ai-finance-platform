@@ -35,7 +35,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
-✅ Method 1: Use Auto-Format
+Use Auto-Format
 Select the code you want to indent.
 
 Press:
@@ -44,6 +44,3 @@ Windows/Linux: Shift + Alt + F
 
 Mac: Shift + Option + F
 
-DevLog
-Video: https://www.youtube.com/watch?v=egS6fnZAdzk&list=PLKhlp2qtUcSZBJxjXbHBkE_3h5E31dDiu&index=9
-Last worked on Video 38:00
